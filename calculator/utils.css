@@ -1,0 +1,25 @@
+.text-center{
+    text-align: center;
+    background-color: blue;
+    padding: 3px 5px;
+    margin: 3px;
+}
+.bg-red{
+    background: rgb(197, 230, 122); 
+}
+.mx-auto{
+    margin: auto;
+
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}
+.row{
+    margin: 8px 0;
+}
