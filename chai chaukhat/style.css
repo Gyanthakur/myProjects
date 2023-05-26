@@ -1,0 +1,258 @@
+.item{
+    display: flex;
+    /* justify-content: baseline; */
+}
+
+
+/* time section */
+.container {
+    font-size: 23px;
+    /* background-color: blanchedalmond; */
+    /* border: 2px solid grey; */
+    padding: 14px;
+    margin: 0px 92px;
+    text-align: right;
+    
+}
+#time {
+    font-weight: bold;
+}
+
+/* Navigation bar */
+body h1{
+    justify-content: center;
+    text-align: center;
+    background-color: darkseagreen;
+}
+#navbar{
+    position: sticky;
+    align-items: center;
+    display: flex;
+    top: 0;
+    height: 100px;
+}
+
+/*Navigation bar :Logo and Images*/
+
+#navbar::before{
+    content: "";
+    background-color:teal;
+    position: absolute;
+    top: opx;
+    left: 0px;
+    margin: 0px 0px 14px 0px;
+    /* margin-bottom: 14px; */
+    /* margin-left: 2px; */
+    padding: 5px;
+
+    height: 100px;
+    width: 1200px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+
+.logo img{
+    height: 25px;
+    margin: 3px 6px;
+    width: 80px;
+    height: auto;
+    
+}
+.logo{
+    width: 100px;
+    height: auto;
+    margin: 5px 12px;
+}
+#navbar ul{
+    display: flex;
+    margin: 55px 0px;
+    padding: 3px 6px;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 0px 9px;
+
+    display: flex;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding:3px 4px ;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    color: black;
+    
+}
+
+/*Home section*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 620px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+   /* background-color: red;*/
+    background: url('img/bg ch2.jfif') no-repeat center center/cover;
+    position: absolute;
+    top: opx;
+    left: 0px;
+    
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+#home h2{
+
+    color:rgb(186, 192, 21);
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#home  p{
+    color: chartreuse;
+}
+
+
+/*services section*/
+#services-container{
+    background: url('img/bg ch.jfif') no-repeat center center/cover; 
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#services{
+    margin: 0px 0px;
+    display: flex;
+} 
+#services .box{
+        border: 2px solid red;
+        padding: 34px;
+        margin: 3px 5px;
+        margin-bottom: 25px;
+        border-radius: 23px;
+        background-color:bisque;
+} 
+#services .box img{
+    height: 75px;
+    margin: 4px auto;
+    display: block;
+} 
+#services p{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+/* client section */
+
+#our-clients {
+    height: inherit;
+
+} 
+#client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#client img{
+    height: 151px;
+}
+#client::before{
+    content: "";
+    position: absolute;
+    /* background: url('img/bg ch.jfif'); */
+    width: 100%;
+    height: 44%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.btn{
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 7px;
+}
+.btn:hover{
+    background-color: aqua;
+    
+}
+
+.order{
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 8px;
+    
+    
+}
+
+
+/*contact section*/
+#contact{
+    margin: 3px;
+    
+    position: relative;
+    
+    
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url('img/contact5.jfif') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+   
+    
+    z-index: -1;
+    opacity: 0.6;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin: 4px;
+    padding-bottom: 34px;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+.h-primary-center{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+
+/*footer section*/
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+
+
+}
+.center{
+    text-align: center;
+}
+
